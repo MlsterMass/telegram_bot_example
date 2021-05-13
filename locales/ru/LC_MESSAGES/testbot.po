@@ -1,0 +1,161 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-01 20:06+0300\n"
+"PO-Revision-Date: 2021-05-01 20:08+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: handlers/users/buy_item.py:26
+msgid ""
+"<b>Item</b> \t№{id}: <u>{name}</u>\n"
+"<b>Price:</b> \t{price:,}\n"
+msgstr ""
+
+#: handlers/users/buy_item.py:52
+msgid "This item not exists"
+msgstr ""
+
+#: handlers/users/buy_item.py:54
+msgid ""
+"Do you want to buy this item?\"<b>{name}</b>\" by price {price:,}\n"
+"Input count of items which you want to buy or click /cancel"
+msgstr ""
+
+#: handlers/users/buy_item.py:75
+msgid ""
+"Okey, you want to buy <i>{quantity}</i> {name} by price "
+"<b>{price:,}/item</b>\n"
+"It will be <b>{amount:,}</b>. Accepted?"
+msgstr ""
+
+#: handlers/users/buy_item.py:87
+msgid "Wrong value, input number"
+msgstr ""
+
+#: handlers/users/buy_item.py:93
+msgid "We cancel this purchase"
+msgstr ""
+
+#: handlers/users/buy_item.py:100
+msgid "Re-enter the quantity"
+msgstr ""
+
+#: handlers/users/buy_item.py:112
+msgid ""
+"Allright. Pay <b>{amount:,}</b> in one of methods below\n"
+"Click on button to accept"
+msgstr ""
+
+#: handlers/users/buy_item.py:161
+msgid "Thank you for purchase!"
+msgstr ""
+
+#: handlers/users/buy_item.py:164
+msgid "Purchase not complete, try again later"
+msgstr ""
+
+#: handlers/users/start.py:31
+msgid ""
+"Welcome\n"
+"Now in base {count_users} users\n"
+"Your referral link: {bot_link}Check referrals command /referrals\n"
+"Items list: /items"
+msgstr ""
+
+#: handlers/users/start.py:44
+msgid "Your language was changed."
+msgstr ""
+
+#: handlers/users/start.py:50
+msgid "Your referrals: {referrals}"
+msgstr ""
+
+#: keyboards/inline/confirm_create_item_admin_panel.py:7
+msgid "Confirm"
+msgstr ""
+
+#: keyboards/inline/confirm_create_item_admin_panel.py:8
+msgid "Change"
+msgstr ""
+
+#: keyboards/inline/quantity_purchase_buttons.py:7
+msgid "I'm agree"
+msgstr ""
+
+#: keyboards/inline/quantity_purchase_buttons.py:10
+msgid "Change quantity"
+msgstr ""
+
+#: keyboards/inline/quantity_purchase_buttons.py:13
+msgid "Cancel buying"
+msgstr ""
+
+#: utils/admin_panel.py:21
+msgid "You decline creating of item"
+msgstr ""
+
+#: utils/admin_panel.py:27
+msgid "Input item name or click /cancel"
+msgstr ""
+
+#: utils/admin_panel.py:36
+msgid ""
+"Name of product: {name}\n"
+"Send me photo of product(no document) or click /cancel"
+msgstr ""
+
+#: utils/admin_panel.py:53
+msgid ""
+"Product name: {name}\n"
+"Send me product price in coins or click /cancel"
+msgstr ""
+
+#: utils/admin_panel.py:67
+msgid "Incorrect value, input for example: 100000"
+msgstr ""
+
+#: utils/admin_panel.py:70
+msgid ""
+"Price:{price:.2f}\n"
+"Confirm ? Click /cancel for decline operation"
+msgstr ""
+
+#: utils/admin_panel.py:81
+msgid ""
+"If you want to change price\n"
+"Input price in coins format"
+msgstr ""
+
+#: utils/admin_panel.py:93
+msgid "Item was created"
+msgstr ""
+
+#: utils/admin_panel.py:99
+msgid "Send text of mailing"
+msgstr ""
+
+#: utils/admin_panel.py:107
+msgid ""
+"In what language you do you want to send mailing?\n"
+"Text:\n"
+"{text}"
+msgstr ""
+
+#: utils/admin_panel.py:127
+msgid "Mailing successfully  ended"
+msgstr ""
+
